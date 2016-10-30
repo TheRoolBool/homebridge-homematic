@@ -4,7 +4,7 @@ var HomeKitGenericService = require('./HomeKitGenericService.js').HomeKitGeneric
 var util = require("util");
 
 
-function HomeMaticHomeKitSecuritySystem(log,platform, id ,name, type ,adress,special, cfg, Service, Characteristic) {
+function HomeMaticHomeKitSecuritySystem(log, platform, id ,name, type ,adress,special, cfg, Service, Characteristic) {
     HomeMaticHomeKitSecuritySystem.super_.apply(this, arguments);
 }
 
